@@ -27,5 +27,9 @@ def nyc_pigeon_organizer(data)
   value.each do |inner_key, name_group|
     name_group.each do |pigeon_name|
       if !final_array[pigeon_name]
-        
+        final_array[pigeon_name] = {}
+      end
+    end
+  end
+end
 end
