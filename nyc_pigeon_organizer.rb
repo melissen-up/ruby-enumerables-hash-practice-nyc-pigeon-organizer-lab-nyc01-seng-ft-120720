@@ -17,6 +17,9 @@ pigeon_data = {
   }
 }
 
+def pigeon_names(data)
+  data.map
+end
 
 
 def nyc_pigeon_organizer(data)
